@@ -1,0 +1,49 @@
+body{
+    padding: 40px;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+p{
+    max-width: 720px;
+    margin: 10px 0px 0px 0px;
+}
+ul{
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    margin-bottom: 5px;
+}
+.allimg{
+    margin-top: 20px;
+}
+div.allimg img{
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+h2{
+    font-size: 30px;
+    margin: 40px 0px 20px 0px;
+    text-align: center;
+}
+.usimg{
+    display: flex;
+    border: 5px solid burlywood;
+}
+div.usimg div.fleximg{
+    flex: 1;
+    height: 400px;
+}
+div.usimg div.fleximg img{
+    height: 100%;
+    width: 100%;
+}
+div.usimg p{
+    flex: 1;
+    padding: 20px 0px 0px 20px;
+
+}
