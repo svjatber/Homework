@@ -1,0 +1,67 @@
+body{
+    background-color: #009bee;
+    padding: 40px;
+}
+#img, #main{
+ position: relative;
+}
+#img{
+    z-index: 1;
+}
+#main{
+    z-index: 2;
+}
+div.header{
+    display: flex;
+}
+p.js{
+    font-family: 'Stalinist One', cursive;
+    font-size: 108px;
+    color: rgba(93, 53, 8, 0.1);
+}
+.img1{
+    flex: 1;
+    padding: 0;
+    width: 100px;
+    height: 200px;
+    margin-left: 700px;
+    margin-right: 0;
+    z-index: 1;
+}
+p.java{
+    flex: 1;
+}
+div.main{
+    margin: -60px auto;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+div.main p{
+    padding-top: 10px;
+    text-align: center;
+}
+.main .pl{
+    font-size: 36px;
+}
+.main .p2{
+    font-size: 72px;
+    color: #f79651;
+    font-weight: bolder;
+}
+.main .p4{
+    font-size: 42px;
+    color: #c90e2d;
+    font-weight: bolder;
+}
+div.main img{
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+p.script{
+    text-align: right;
+    padding: 0;
+}
