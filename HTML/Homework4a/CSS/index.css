@@ -1,0 +1,30 @@
+.container{
+    width: 1000px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+.box_1, .footer{
+    background-color: orange;
+    width: 100%;
+    height: 200px;
+}
+.main{
+    display: flex;
+}
+.box{
+    flex:1;
+    height: 200px;
+}
+.box_2{
+    background-color: red;
+}
+.box_3{
+    background-color: green;
+}
+.box_4{
+    background-color: blue;
+}
+.box_5{
+    background-color: black;
+}
+ 
