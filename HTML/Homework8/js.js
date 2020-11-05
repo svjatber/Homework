@@ -628,13 +628,18 @@ for(let user of users1){
 //     console.log(divka)
 // }
 // - За допомоги циклу проітерувати  масив users, записати кожного юзера в сівй блок за допомоги document.createElement, розділивши всі властивості по своїм блокам (div>div*4)
-let defauAll ={};
+let abc =[]
 for(let elem of user){
-    for(let el in elem ){
-            defauAll[el] = elem[el]
+    for(let el in elem){
+        if(el == 'name'){
+            abc[el] = {}
+            abc[el] = elem[el]
+            abc.push(abc[el])
         }
+
     }
-console.log(defauAll);  
+
+}
 
 // - За допомоги циклу проітерувати  масив users, записати кожного юзера в сівй блок за допомоги document.createElement, розділивши всі властивості по своїм блокам , блок з адресою зробити окремим блоком, з блоками для кожної властивості
 
@@ -700,10 +705,10 @@ for (let elem of tag) {
 // divk.style.backgroundColor = 'red'
 
 // }
-let body = document.querySelector('body')
-let main = document.createElement('div')
-main.style.boxSizing = 'border-box'
-body.appendChild(main);
+// let body = document.querySelector('body')
+// let main = document.createElement('div')
+// main.style.boxSizing = 'border-box'
+// body.appendChild(main);
 // for(let i = 0;i<3;i++){
 //     let divk = document.createElement('div')
 //     divk.style.width = '100px'
@@ -754,25 +759,25 @@ body.appendChild(main);
     
 // }
 // - за допомоги document.createElement, appendChild та 2х циклів створити таблицю на n рядків з m ячейками всередені. n та m отримати з prompt
-let n = +prompt('width')
-let m = +prompt('height')
-for(let i = 0;i<m;i++){
-    let divk = document.createElement('div')
-    divk.style.padding = '0'
-    divk.style.margin = '0'
-    main.appendChild(divk)
-    for(let k =0; k<n;k++){
-        let di = document.createElement('div')
-        di.style.padding = '0'
-        di.style.margin = '0'
-        di.style.display = 'inline-block'
-        di.style.width = '100px'
-        di.style.height = '50px'
-        di.style.border = '1px solid black'
-        di.style.backgroundColor = 'red'
-        divk.appendChild(di)
-    }
+// let n = +prompt('width')
+// let m = +prompt('height')
+// for(let i = 0;i<m;i++){
+//     let divk = document.createElement('div')
+//     divk.style.padding = '0'
+//     divk.style.margin = '0'
+//     main.appendChild(divk)
+//     for(let k =0; k<n;k++){
+//         let di = document.createElement('div')
+//         di.style.padding = '0'
+//         di.style.margin = '0'
+//         di.style.display = 'inline-block'
+//         di.style.width = '100px'
+//         di.style.height = '50px'
+//         di.style.border = '1px solid black'
+//         di.style.backgroundColor = 'red'
+//         divk.appendChild(di)
+//     }
     
-}
+// }
 
 
