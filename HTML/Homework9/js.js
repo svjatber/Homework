@@ -94,12 +94,8 @@ console.log(arrObject([{name: 'vasya', age: 31, status: false, skills: ['java', 
 function arrGo(arr1,arr2){
     let sum = [];
     for(let i=0;i<arr1.length;i++){
-        for(let k=0;k<arr2.length;k++){
-            if(i == k){
-                let sum0 = Number(arr1[i])+Number(arr2[k])
-                sum.push(sum0)
-            }
-        }
+     sum0 = arr[i]+arr2[i];
+     arr.push(sum0)
     }
     return  console.log(sum);
 }
